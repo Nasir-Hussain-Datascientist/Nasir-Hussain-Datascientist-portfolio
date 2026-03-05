@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Scientist Portfolio - Nasir Hussain</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+
+    <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="profile">
+                <div class="profile-img" id="profileImage">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h2 class="profile-name" id="profileName">Nasir Hussain</h2>
+                <p class="profile-title" id="profileTitle">Data Scientist & Analyst</p>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" data-section="home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#certifications" class="nav-link" data-section="certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+                <li><a href="#resume" class="nav-link" data-section="resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="#services" class="nav-link" data-section="services"><i class="fas fa-cogs"></i> Services</a></li>
+                <li><a href="#reviews" class="nav-link" data-section="reviews"><i class="fas fa-star"></i> Reviews</a></li>
+                <li><a href="#blogs" class="nav-link" data-section="blogs"><i class="fas fa-blog"></i> Blogs</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/nasir-hussain-swat/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Nasir-Hussain-Datascientist" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/im.nasirhussain/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://web.facebook.com/nasir.hussain.819767" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@nasir_hussain06" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Home Section -->
+            <section id="home" class="section active">
+                <div class="home-section" id="homeSection">
+                    <div class="intro-content">
+                        <h1 id="introTitle">Data Scientist & Analyst</h1>
+                        <p id="introDescription">Transforming complex data into actionable insights. Specializing in machine learning, statistical analysis, and data visualization.</p>
+                        <a href="#projects" class="btn">View My Work</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Professional Data Scientist & Analyst</h3>
+                        <p id="aboutDescription">Passionate data scientist with expertise in machine learning, statistical analysis, and data visualization. Dedicated to transforming raw data into meaningful insights that drive business decisions.</p>
+                    </div>
+                    <div class="personal-info" id="personalInfo">
+                        <div class="info-item">
+                            <span>Name:</span>
+                            <span>Nasir Hussain</span>
+                        </div>
+                        <div class="info-item">
+                            <span>Email:</span>
+                            <span>nasir.swat.hussain@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span>Location:</span>
+                            <span>Swat, Pakistan</span>
+                        </div>
+                        <div class="info-item">
+                            <span>Degree:</span>
+                            <span>BS Software Engineering<br>Gold Medalist</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <h2>My Projects</h2>
+                
+                <div class="category-filter">
+                    <!-- Dynamic Category Tabs -->
+                    <div class="category-tabs" id="categoryTabs">
+                        <!-- Tabs will be loaded by JavaScript -->
+                        <div class="loading-tabs">Loading categories...</div>
+                    </div>
+                    
+                    <div class="category-stats">
+                        <p>Showing <span id="showingCount">0</span> of <span id="totalCount">0</span> projects</p>
+                    </div>
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+                    <div class="loading">Loading projects...</div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section id="certifications" class="section">
+                <h2>Certifications</h2>
+                <div class="certifications-grid" id="certificationsGrid">
+                    <div class="loading">Loading certifications...</div>
+                </div>
+            </section>
+
+            <!-- Resume Section -->
+            <section id="resume" class="section">
+                <h2>Resume</h2>
+                <div class="about-content">
+                    <div id="educationSection">
+                        <h3>Education</h3>
+                        <div class="loading">Loading education...</div>
+                    </div>
+                    <div id="experienceSection">
+                        <h3>Experience</h3>
+                        <div class="loading">Loading experience...</div>
+                    </div>
+                </div>
+                <div id="skillsSection" style="margin-top: 2rem;">
+                    <h3>Skills</h3>
+                    <div class="loading">Loading skills...</div>
+                </div>
+                <div style="margin-top: 2rem; text-align: center;">
+                    <a href="#" class="btn" id="resumeDownloadLink"><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services" class="section">
+                <h2>My Services</h2>
+                <div class="services-grid" id="servicesGrid">
+                    <div class="loading">Loading services...</div>
+                </div>
+            </section>
+
+            <!-- Reviews Section -->
+            <section id="reviews" class="section">
+                <h2>Client Reviews</h2>
+                <div class="reviews-container">
+                    <div class="review-form">
+                        <h3>Leave a Review</h3>
+                        <form id="reviewForm">
+                            <div class="form-group">
+                                <label for="reviewerName">Your Name</label>
+                                <input type="text" id="reviewerName" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reviewMessage">Your Review</label>
+                                <textarea id="reviewMessage" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Submit Review</button>
+                        </form>
+                    </div>
+
+                    <div class="reviews-list" id="reviewsList">
+                        <div class="loading">Loading reviews...</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blogs Section -->
+            <section id="blogs" class="section">
+                <h2>My Blogs</h2>
+                <div class="blogs-grid" id="blogsGrid">
+                    <div class="loading">Loading blogs...</div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h2>Contact Me</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> Email: nasir.swat.hussain@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> Phone: +92 123 4567890</p>
+                        <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/nasir-hussain-swat/" target="_blank">nasir-hussain-swat</a></p>
+                        <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/Nasir-Hussain-Datascientist" target="_blank">Nasir-Hussain-Datascientist</a></p>
+                        <p class="contact-note">Feel free to reach out for collaborations, opportunities, or just a friendly hello!</p>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm" action="https://formspree.io/f/xvgeqynj" method="POST">
+                            <input type="hidden" name="_subject" value="New Message from Portfolio - Nasir Hussain">
+                            <input type="hidden" name="_replyto" value="nasir.swat.hussain@gmail.com">
+                            <input type="hidden" name="_next" value="https://nasir-hussain-datascientist.github.io/#contact?success=true">
+                            <input type="text" name="_gotcha" style="display:none">
+                            
+                            <div class="form-group">
+                                <label for="contactName">Your Name *</label>
+                                <input type="text" id="contactName" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmailInput">Your Email *</label>
+                                <input type="email" id="contactEmailInput" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactSubject">Subject *</label>
+                                <input type="text" id="contactSubject" name="subject" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Message *</label>
+                                <textarea id="contactMessage" name="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn" id="submitBtn">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-loader" style="display: none;">
+                                    <i class="fas fa-spinner fa-spin"></i> Sending...
+                                </span>
+                            </button>
+                            <p class="form-note">* Required fields</p>
+                        </form>
+                        
+                        <div id="successMessage" class="success-message" style="display: none;">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Message Sent Successfully!</h3>
+                            <p>Thank you for reaching out. I'll get back to you within 24 hours.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeProjectModal">&times;</button>
+            <h2 id="modalProjectTitle">Project Title</h2>
+            <div id="modalProjectContent"></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Scientist Portfolio - Nasir Hussain</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+
+    <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="profile">
+                <div class="profile-img" id="profileImage">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h2 class="profile-name" id="profileName">Nasir Hussain</h2>
+                <p class="profile-title" id="profileTitle">Data Scientist & Analyst</p>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" data-section="home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#certifications" class="nav-link" data-section="certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+                <li><a href="#resume" class="nav-link" data-section="resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="#services" class="nav-link" data-section="services"><i class="fas fa-cogs"></i> Services</a></li>
+                <li><a href="#reviews" class="nav-link" data-section="reviews"><i class="fas fa-star"></i> Reviews</a></li>
+                <li><a href="#blogs" class="nav-link" data-section="blogs"><i class="fas fa-blog"></i> Blogs</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/nasir-hussain-swat/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Nasir-Hussain-Datascientist" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/im.nasirhussain/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://web.facebook.com/nasir.hussain.819767" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@nasir_hussain06" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Home Section -->
+            <section id="home" class="section active">
+                <div class="home-section" id="homeSection">
+                    <div class="intro-content">
+                        <h1 id="introTitle">Data Scientist & Analyst</h1>
+                        <p id="introDescription">Transforming complex data into actionable insights. Specializing in machine learning, statistical analysis, and data visualization.</p>
+                        <a href="#projects" class="btn">View My Work</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Professional Data Scientist & Analyst</h3>
+                        <p id="aboutDescription">Passionate data scientist with expertise in machine learning, statistical analysis, and data visualization. Dedicated to transforming raw data into meaningful insights that drive business decisions.</p>
+                    </div>
+                    <div class="personal-info" id="personalInfo">
+                        <div class="info-item">
+                            <span>Name:</span>
+                            <span>Nasir Hussain</span>
+                        </div>
+                        <div class="info-item">
+                            <span>Email:</span>
+                            <span>nasir.swat.hussain@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span>Location:</span>
+                            <span>Swat, Pakistan</span>
+                        </div>
+                        <div class="info-item">
+                            <span>Degree:</span>
+                            <span>BS Software Engineering<br>Gold Medalist</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <h2>My Projects</h2>
+                
+                <div class="category-filter">
+                    <!-- Dynamic Category Tabs -->
+                    <div class="category-tabs" id="categoryTabs">
+                        <!-- Tabs will be loaded by JavaScript -->
+                        <div class="loading-tabs">Loading categories...</div>
+                    </div>
+                    
+                    <div class="category-stats">
+                        <p>Showing <span id="showingCount">0</span> of <span id="totalCount">0</span> projects</p>
+                    </div>
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+                    <div class="loading">Loading projects...</div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section id="certifications" class="section">
+                <h2>Certifications</h2>
+                <div class="certifications-grid" id="certificationsGrid">
+                    <div class="loading">Loading certifications...</div>
+                </div>
+            </section>
+
+            <!-- Resume Section -->
+            <section id="resume" class="section">
+                <h2>Resume</h2>
+                <div class="about-content">
+                    <div id="educationSection">
+                        <h3>Education</h3>
+                        <div class="loading">Loading education...</div>
+                    </div>
+                    <div id="experienceSection">
+                        <h3>Experience</h3>
+                        <div class="loading">Loading experience...</div>
+                    </div>
+                </div>
+                <div id="skillsSection" style="margin-top: 2rem;">
+                    <h3>Skills</h3>
+                    <div class="loading">Loading skills...</div>
+                </div>
+                <div style="margin-top: 2rem; text-align: center;">
+                    <a href="#" class="btn" id="resumeDownloadLink"><i class="fas fa-download"></i> Download Resume</a>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services" class="section">
+                <h2>My Services</h2>
+                <div class="services-grid" id="servicesGrid">
+                    <div class="loading">Loading services...</div>
+                </div>
+            </section>
+
+            <!-- Reviews Section -->
+            <section id="reviews" class="section">
+                <h2>Client Reviews</h2>
+                <div class="reviews-container">
+                    <div class="review-form">
+                        <h3>Leave a Review</h3>
+                        <form id="reviewForm">
+                            <div class="form-group">
+                                <label for="reviewerName">Your Name</label>
+                                <input type="text" id="reviewerName" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reviewMessage">Your Review</label>
+                                <textarea id="reviewMessage" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Submit Review</button>
+                        </form>
+                    </div>
+
+                    <div class="reviews-list" id="reviewsList">
+                        <div class="loading">Loading reviews...</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blogs Section -->
+            <section id="blogs" class="section">
+                <h2>My Blogs</h2>
+                <div class="blogs-grid" id="blogsGrid">
+                    <div class="loading">Loading blogs...</div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h2>Contact Me</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> Email: nasir.swat.hussain@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> Phone: +92 123 4567890</p>
+                        <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/nasir-hussain-swat/" target="_blank">nasir-hussain-swat</a></p>
+                        <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/Nasir-Hussain-Datascientist" target="_blank">Nasir-Hussain-Datascientist</a></p>
+                        <p class="contact-note">Feel free to reach out for collaborations, opportunities, or just a friendly hello!</p>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm" action="https://formspree.io/f/xvgeqynj" method="POST">
+                            <input type="hidden" name="_subject" value="New Message from Portfolio - Nasir Hussain">
+                            <input type="hidden" name="_replyto" value="nasir.swat.hussain@gmail.com">
+                            <input type="hidden" name="_next" value="https://nasir-hussain-datascientist.github.io/#contact?success=true">
+                            <input type="text" name="_gotcha" style="display:none">
+                            
+                            <div class="form-group">
+                                <label for="contactName">Your Name *</label>
+                                <input type="text" id="contactName" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmailInput">Your Email *</label>
+                                <input type="email" id="contactEmailInput" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactSubject">Subject *</label>
+                                <input type="text" id="contactSubject" name="subject" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Message *</label>
+                                <textarea id="contactMessage" name="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn" id="submitBtn">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-loader" style="display: none;">
+                                    <i class="fas fa-spinner fa-spin"></i> Sending...
+                                </span>
+                            </button>
+                            <p class="form-note">* Required fields</p>
+                        </form>
+                        
+                        <div id="successMessage" class="success-message" style="display: none;">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Message Sent Successfully!</h3>
+                            <p>Thank you for reaching out. I'll get back to you within 24 hours.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeProjectModal">&times;</button>
+            <h2 id="modalProjectTitle">Project Title</h2>
+            <div id="modalProjectContent"></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

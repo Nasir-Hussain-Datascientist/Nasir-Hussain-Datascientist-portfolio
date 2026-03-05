@@ -1,0 +1,25 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "The Future of AI in Healthcare",
+      "description": "Exploring how artificial intelligence is transforming healthcare...",
+      "fullContent": "<p>This is the COMPLETE blog article with detailed content.</p><p>You can write multiple paragraphs here with proper formatting.</p><p>Add images, code snippets, and explanations as needed.</p>",
+      "image": "",
+      "icon": "chart-pie",
+      "date": "June 10, 2023",
+      "category": "Data Science"
+    },
+    {"id":2,
+"title":"Password are dying!",
+"description":"The future of authentication is here, and it's passwordless.",
+"fullContent": "<p>I Think Passwords Are Dying And I’m Not Sad About It</p>\n<p>How many times have you forgotten a password, reset it, and promised yourself you’ll “remember it this time”? 😅 Turns out, that entire cycle might soon be history.</p>\n<p>I just read an incredible piece on how data science is shaping the next era of digital identity—one where our devices recognize us not by what we type, but by who we are and how we behave.</p>\n<p>Our fingerprints, our faces, even the subtle rhythm in how we scroll or type are all becoming part of a secure, intelligent system that knows us.</p>\n<p>As a data scientist, this idea hits differently. It’s thrilling, but also raises deep questions:</p>\n<p>When our identity becomes data, who really owns it? Can we make this shift both ethical and human?</p>\n<p>It’s rare to find technology that feels this futuristic yet this personal.</p>\n<p>I’d genuinely recommend giving it a read—it’ll make you rethink what “logging in” means forever.</p>\n<p><strong>By Soroush Saki</strong></p>\n<p><a href=\"https://lnkd.in/diTa6_Vb\" target=\"_blank\">Read the full article</a></p>\n<p>#DataScience #AI #MachineLearning #DigitalIdentity #CyberSecurity #Innovation #TechTrends #FutureOfTech #ArtificialIntelligence #EthicalAI #DataPrivacy #TechForGood #BigData #DeepLearning #IdentityManagement #Passwordless #DataDriven #AIRevolution #DataScientist #TechInsights</p>",
+"image": "data/images/password.jpeg",
+      "icon": "chart-pie",
+      "date": "Feb 02, 2026",
+      "category": "Cyber Security"
+
+
+    }
+  ]
+}

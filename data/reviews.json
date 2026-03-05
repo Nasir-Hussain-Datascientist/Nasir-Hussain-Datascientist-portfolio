@@ -1,0 +1,22 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Sarah Williams",
+      "date": "June 15, 2023",
+      "message": "Alex delivered exceptional insights for our marketing campaign. His data analysis helped us increase conversions by 22%."
+    },
+    {
+      "id": 2,
+      "name": "Michael Chen",
+      "date": "May 3, 2023",
+      "message": "The predictive model Alex developed for our inventory management has saved us thousands in operational costs. Highly recommended!"
+    },
+    {
+      "id": 3,
+      "name": "Emily Rodriguez",
+      "date": "April 18, 2023",
+      "message": "Outstanding work on our customer segmentation project. The insights were actionable and drove real business growth."
+    }
+  ]
+}

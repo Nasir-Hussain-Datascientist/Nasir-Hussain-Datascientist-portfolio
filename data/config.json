@@ -1,0 +1,65 @@
+{
+  "profile": {
+    "name": "Nasir Hussain",
+    "title": "Data Scientist & Analyst",
+    "profileImage": "data/images/dp.JPG",
+    "coverImage": "data/images/dp.JPG",
+    "introTitle": "Data Scientist & Analyst",
+    "introDescription":"A combination of the investigative acumen of data analysis and the predictive capability of data science. I also discover latent patterns, predict trends, and design scalable solutions which allow me to make data-driven decisions based on strategic intelligence to automated intelligence.",
+    "aboutDescription": "I have over 3 years of experience in Data Science, specialising in delivering advanced analytics, predictive modelling, and business intelligence solutions. I have made significant contributions to projects involving data collection, preprocessing, model development, and deployment, leveraging machine learning and statistical analysis to generate actionable insights. My work has focused on optimising data workflows, enhancing decision-making processes, and building scalable, data-driven solutions for multiple multinational companies.\nMy technical expertise includes Python, R, SQL, and tools such as TensorFlow, Scikit-learn, PowerBI and Tableau, with extensive experience in data wrangling, ETL processes, and big data technologies like Hadoop and Spark. I am proficient in developing and deploying machine learning models for various use cases, including regression, classification, and time series forecasting, and have implemented MLOps pipelines on cloud platforms such as AWS, Azure, and GCP.\nI possess strong communication and problem-solving skills, with a proven ability to translate complex data findings into clear, actionable insights for non-technical stakeholders. I have worked across diverse industries, delivering impactful data science solutions for projects involving companies such as Barclays, London Bridge, Goldman Sachs, JPMorgan Chase, Beagle Street, and the Bank of England, while ensuring compliance with data governance standards and best practices for data security.",
+    "Location": "Swat, Pakistan",
+    "contactEmail": "nasir.swat.hussain@gmail.com",
+
+    "resumeLink": "#"
+  },
+  "education": [
+    {
+      "id": 1,
+      "degree": "MSc Data Science",
+      "institution": "Stanford University",
+      "period": "2018-2020"
+    },
+    {
+      "id": 2,
+      "degree": "BSc Computer Science",
+      "institution": "UC Berkeley",
+      "period": "2014-2018"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "position": "Senior Data Scientist",
+      "company": "TechCorp Inc.",
+      "period": "2020-Present"
+    },
+    {
+      "id": 2,
+      "position": "Data Analyst",
+      "company": "DataInsights LLC",
+      "period": "2018-2020"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "category": "Programming",
+      "items": ["Python", "R", "SQL", "JavaScript"]
+    },
+    {
+      "id": 2,
+      "category": "ML Libraries",
+      "items": ["Scikit-learn", "TensorFlow", "PyTorch"]
+    },
+    {
+      "id": 3,
+      "category": "Data Visualization",
+      "items": ["Tableau", "Power BI", "Matplotlib", "D3.js"]
+    },
+    {
+      "id": 4,
+      "category": "Big Data",
+      "items": ["Hadoop", "Spark", "AWS", "Azure"]
+    }
+  ]
+}

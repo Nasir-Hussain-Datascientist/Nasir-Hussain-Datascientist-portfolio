@@ -1,0 +1,88 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "degree": "BS Software Engineering",
+      "institution": "University of Malakand",
+      "period": "2020-2024"
+    },
+    {
+      "id": 2,
+      "degree": "Fsc Pre-Engineering",
+      "institution": "SPS College Swat",
+      "period": "2018-2020"
+    },
+    {
+      "id": 3,
+      "degree": "Matriculation",
+      "institution": "SPS College Swat",
+      "period": "2016-2018"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "position": "Data Scientist",
+      "company": "Firstnetsystems.UK",
+      "period": "2023-Present"
+    },
+    {
+      "id": 2,
+      "position": "Data Analyst",
+      "company": "Firstnetsystems.UK",
+      "period": "2023-Present"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "category": "Programming & Languages",
+      "items": ["Python", "R", "SQL", "C++", "Shell Scripting"]
+    },
+    {
+      "id": 2,
+      "category": "Machine Learning & AI",
+      "items": ["scikit-learn", "TensorFlow", "Keras", "PyTorch", "XGBoost", "LightGBM", "Feature Engineering", "Model Evaluation"]
+    },
+    {
+      "id": 3,
+      "category": "Cloud Platforms",
+      "items": ["AWS (SageMaker, S3)", "Microsoft Azure", "Google Cloud Platform", "Docker", "Kubernetes"]
+    },
+    {
+      "id": 4,
+      "category": "Data Visualization",
+      "items": ["Tableau", "Power BI", "DAX", "Excel", "Matplotlib", "Seaborn"]
+    },
+    {
+      "id": 5,
+      "category": "Big Data & Databases",
+      "items": ["Apache Hadoop", "Apache Spark", "MySQL", "PostgreSQL", "MongoDB", "Cassandra"]
+    },
+    {
+      "id": 6,
+      "category": "Data Engineering",
+      "items": ["ETL/ELT Pipelines", "Airflow", "Kafka", "Data Cleaning", "Data Transformation", "SQL"]
+    },
+    {
+      "id": 7,
+      "category": "Data Governance & Security",
+      "items": ["GDPR", "ISO/IEC 27001", "ISO/IEC 27702", "Cyber Essentials", "NIST Framework", "PCI DSS"]
+    },
+    {
+      "id": 8,
+      "category": "Tools & Technologies",
+      "items": ["Git", "GitHub", "Google Sheets", "Apps Script", "ArcGIS", "Oracle Fusion Cloud", "MLflow", "TensorBoard"]
+    },
+    {
+      "id": 9,
+      "category": "Statistical Analysis",
+      "items": ["Hypothesis Testing", "Experimental Design", "Statistical Modeling", "Time Series Analysis", "Forecasting"]
+    },
+    {
+      "id": 10,
+      "category": "Business Intelligence",
+      "items": ["Dashboard Development", "KPI Development", "Business Analytics", "Data-Driven Decision Making", "Stakeholder Communication"]
+    }
+  ]
+}

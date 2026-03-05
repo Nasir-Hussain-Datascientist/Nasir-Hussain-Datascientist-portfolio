@@ -1,0 +1,374 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "ATM Cash Flow Optimization for Barclays",
+      "description": "Developed predictive cash flow model using machine learning to optimize ATM cash replenishment. The system used XGBoost to forecast cash demand with 90% accuracy and integrated with Power BI dashboards for real-time monitoring.",
+      "image": "",
+      "icon": "chart-line",
+      "technologies": ["SQL", "Python", "pandas", "NumPy", "XGBoost", "Power BI", "Machine Learning"],
+      "results": "25% reduction in ATM cash shortages, 15% less cash held in low-traffic ATMs, 20% lower cash delivery costs, improved customer experience",
+      "category": "Machine Learning"
+    },
+    {
+      "id": 2,
+      "title": "Customer Retention Solution for Beagle Street Insurance",
+      "description": "Built customer churn prediction model and Tableau dashboard to improve policy renewals. Used predictive analytics to identify at-risk customers and recommended targeted retention strategies.",
+      "image": "",
+      "icon": "chart-pie",
+      "technologies": ["SQL", "Python", "Tableau", "Scikit-learn", "XGBoost", "AWS", "Azure"],
+      "results": "10-15% increase in policy renewals, improved customer retention rates",
+      "category": "Machine Learning"
+    },
+    {
+      "id": 3,
+      "title": "Sales and Inventory Optimization for Greendale Organics",
+      "description": "Implemented sales and inventory analysis system for organic grocery chain. Built Power BI dashboards and used Python for demand forecasting to optimize stock levels and reduce waste.",
+      "image": "",
+      "icon": "shopping-cart",
+      "technologies": ["Excel", "Power Query", "SQL", "Python", "Pandas", "Seaborn", "Power BI"],
+      "results": "18% reduction in perishable stock waste, 15% improvement in stock availability of high-demand products",
+      "category": "Analytics"
+    },
+    {
+      "id": 4,
+      "title": "Automated Loan Pre-Screening System for JPMorgan Chase",
+      "description": "Developed AI-powered loan pre-screening system using machine learning to automatically filter weak applications. Integrated with Google Cloud AI for real-time processing and Power BI for monitoring.",
+      "image": "",
+      "icon": "robot",
+      "technologies": ["SQL", "Python", "Scikit-learn", "LightGBM", "Google Cloud AI", "Google BigQuery", "Power BI"],
+      "results": "40% faster loan approvals, 35% reduction in manual workload, improved operational efficiency",
+      "category": "Machine Learning"
+    },
+    {
+      "id": 5,
+      "title": "Data Pipeline Implementation for Social Media Analytics",
+      "description": "Built automated data pipeline for social media analytics agency. Used Python and Apache Airflow to extract data from multiple social media APIs, transform it, and load into AWS Redshift for analysis.",
+      "image": "",
+      "icon": "database",
+      "technologies": ["Python", "Apache Airflow", "AWS S3", "AWS Redshift", "Twitter API", "Facebook API", "Pandas", "Tableau"],
+      "results": "Automated data extraction and reporting process, enabled real-time campaign performance insights",
+      "category": "Data Engineering"
+    },
+    {
+      "id": 6,
+      "title": "COVID-19 Impact Tracking for Non-COVID Patients",
+      "description": "Developed hospital data analytics system to track COVID-19 impact on non-COVID patients. Used AWS cloud platforms, Tableau dashboards, and predictive modeling with SageMaker.",
+      "image": "",
+      "icon": "hospital",
+      "technologies": ["AWS", "SQL", "Tableau", "AWS SageMaker", "AWS Lambda", "Python", "Data Visualization"],
+      "results": "Improved resource allocation, identified high-risk patients, enhanced hospital decision-making",
+      "category": "Data Science"
+    },
+    {
+      "id": 7,
+      "title": "Predicting 30-Day Readmission in Diabetic Patients",
+      "description": "Developed supervised learning model to predict diabetic patient readmissions within 30 days. Used data mining techniques and focused on F1-score optimization for the positive class.",
+      "image": "",
+      "icon": "user-md",
+      "technologies": ["Python", "Machine Learning", "Data Mining", "Pandas", "Scikit-learn", "Jupyter"],
+      "results": "Predictive model for hospital readmissions, improved patient care planning",
+      "category": "Machine Learning"
+    },
+    {
+      "id": 8,
+      "title": "EEG-based ADHD Diagnosis using Deep Learning",
+      "description": "Developed end-to-end deep learning model for automated ADHD diagnosis using EEG signals. Used CNN with CWT transformations and implemented explainable AI with Grad-CAM.",
+      "image": "",
+      "icon": "brain",
+      "technologies": ["Python", "Deep Learning", "CNN", "TensorFlow/PyTorch", "CWT", "Grad-CAM", "XAI"],
+      "results": "Automated ADHD diagnosis system with explainable AI components",
+      "category": "Machine Learning"
+    },
+    {
+      "id": 9,
+      "title": "Pepsi-Cola Marketing Mix Analysis",
+      "description": "Comprehensive marketing analytics project analyzing Pepsi's sales drivers. Used regression modeling, adstock specifications, and machine learning techniques for sales prediction.",
+      "image": "",
+      "icon": "chart-bar",
+      "technologies": ["R", "Statistical Analysis", "Regression", "Machine Learning", "Random Forest", "Excel"],
+      "results": "Marketing mix optimization insights, sales prediction models",
+      "category": "Analytics"
+    },
+    {
+      "id": 10,
+      "title": "Cryptocurrency Time Series Analytics",
+      "description": "Built system to fetch and analyze 100+ time series metrics from Glassnode API for multiple cryptocurrencies. Structured data into pandas DataFrames with efficient API handling.",
+      "image": "",
+      "icon": "bitcoin",
+      "technologies": ["Python", "API Integration", "Pandas", "Time Series", "Data Analysis", "Glassnode API"],
+      "results": "Automated cryptocurrency data pipeline, structured analytics framework",
+      "category": "Data Engineering"
+    },
+    {
+      "id": 11,
+      "title": "Traffic Regulations Impact Research",
+      "description": "Research analysis on traffic regulations and infrastructure impact on accidents. Used data science techniques to analyze relationships between infrastructure, regulations, and safety.",
+      "image": "",
+      "icon": "car",
+      "technologies": ["Data Science", "Statistical Analysis", "Research Methods", "Python/R", "Data Visualization"],
+      "results": "Policy recommendations, traffic safety insights",
+      "category": "Data Science"
+    },
+    {
+      "id": 12,
+      "title": "Business Operations Data Modeling",
+      "description": "Developed comprehensive data model with 14 calculated measures and columns for business operations tracking. Created measures for agreement expense, contract duration, margin analysis.",
+      "image": "",
+      "icon": "calculator",
+      "technologies": ["DAX", "Power BI", "Data Modeling", "Business Intelligence", "Excel"],
+      "results": "Automated business metrics calculation, improved operational visibility",
+      "category": "Analytics"
+    },
+    {
+      "id": 13,
+      "title": "Sales Dashboard Development",
+      "description": "Created management dashboard for sales data analysis. Included key metrics like customer sales, gross profit, shipping costs, and negative profit items across multiple dimensions.",
+      "image": "",
+      "icon": "dashboard",
+      "technologies": ["Excel", "Dashboard", "Data Visualization", "Business Intelligence", "Pivot Tables"],
+      "results": "Comprehensive sales dashboard, improved management visibility",
+      "category": "Visualization/Reporting"
+    },
+    {
+      "id": 14,
+      "title": "Google Sheets Data Automation",
+      "description": "Built automated data transfer system between Google Sheets tabs. Created daily and weekly automated tables for deal tracking and response management.",
+      "image": "",
+      "icon": "table",
+      "technologies": ["Google Sheets", "Automation", "Data Integration", "JavaScript/Apps Script"],
+      "results": "Automated data workflow, reduced manual data entry",
+      "category": "Data Engineering"
+    },
+    {
+      "id": 15,
+      "title": "Plant Database Interactive Interface",
+      "description": "Designed interactive database interface for plant/factory infrastructure data. Created overview dashboard with filtering capabilities across 8 franchises and multiple plants.",
+      "image": "",
+      "icon": "industry",
+      "technologies": ["Database Design", "UI/UX", "Dashboard", "Data Visualization", "Excel/Power BI"],
+      "results": "Interactive plant database, improved data accessibility",
+      "category": "Visualization/Reporting"
+    },
+    {
+      "id": 16,
+      "title": "Billing Process Tracking Dashboard",
+      "description": "Developed professional interactive dashboard to track billing process completion rates. Included detailed progress tracking for multiple clients with phase-wise categorization.",
+      "image": "",
+      "icon": "file-invoice-dollar",
+      "technologies": ["Dashboard", "Data Visualization", "Power BI/Tableau", "Interactive Reports"],
+      "results": "Real-time billing process tracking, improved project management",
+      "category": "Visualization/Reporting"
+    },
+    {
+      "id": 17,
+      "title": "Student Graduation Readiness System",
+      "description": "Designed student information system solution for graduation readiness tracking. Consolidated data on credits, courses, GPA, and risk indicators into user-friendly application.",
+      "image": "",
+      "icon": "graduation-cap",
+      "technologies": ["PowerSchool", "Student Information Systems", "Data Consolidation", "Educational Analytics"],
+      "results": "Integrated student progress tracking, improved graduation planning",
+      "category": "Analytics"
+    },
+    {
+      "id": 18,
+      "title": "Regional Performance Dashboard",
+      "description": "Created regional performance dashboard with 4 KPIs for 7 regions with multiple districts. Included filtering capabilities and monthly update functionality.",
+      "image": "",
+      "icon": "map",
+      "technologies": ["Excel", "Dashboard", "KPI Tracking", "Data Visualization", "Business Intelligence"],
+      "results": "Regional performance monitoring system, data-driven decision support",
+      "category": "Visualization/Reporting"
+    },
+    {
+      "id": 19,
+      "title": "Gaming Reduction Planner Redesign",
+      "description": "Redesigned gaming tracking and reduction planning sheets. Improved UI/UX, removed clutter, added visualization graphs, and enhanced professional appearance.",
+      "image": "",
+      "icon": "gamepad",
+      "technologies": ["Google Sheets", "UI/UX Design", "Data Visualization", "Spreadsheet Optimization"],
+      "results": "Professional client-facing tools, improved user experience",
+      "category": "Visualization/Reporting"
+    },
+    {
+      "id": 20,
+      "title": "Tableau Analytics Dashboard Suite",
+      "description": "Developed comprehensive Tableau dashboard suite with 8 visualizations including funnel charts, stacked bars, pie charts, and line charts for user behavior analysis.",
+      "image": "",
+      "icon": "chart-area",
+      "technologies": ["Tableau", "Data Visualization", "Dashboard", "Business Intelligence", "Analytics"],
+      "results": "Complete analytics dashboard suite, user behavior insights",
+      "category": "Visualization/Reporting"
+    },
+    {
+      "id": 21,
+      "title": "GNSS Earthquake Data Analytics",
+      "description": "Analyzed GNSS data with seismic records to identify earthquake patterns. Used statistical analysis, correlation studies, and mutual information for predictive insights.",
+      "image": "",
+      "icon": "globe-americas",
+      "technologies": ["Python", "Statistical Analysis", "Data Science", "Geospatial Analysis", "Pandas"],
+      "results": "Earthquake pattern insights, GNSS-seismic correlation analysis",
+      "category": "Data Science"
+    },
+    {
+      "id": 22,
+      "title": "Chicago Taxi Data Analysis",
+      "description": "Comprehensive analysis of Chicago taxi trip data. Performed data cleaning, feature engineering, and ARIMA forecasting for fare predictions and operational optimization.",
+      "image": "",
+      "icon": "taxi",
+      "technologies": ["Python", "Data Cleaning", "Feature Engineering", "ARIMA", "Time Series"],
+      "results": "Operational optimization insights, fare forecasting models",
+      "category": "Data Science"
+    },
+    {
+      "id": 23,
+      "title": "Retail Store Decision Support System",
+      "description": "Designed comprehensive Decision Support System for retail business using Power BI. Included data integration, analytical tools, and user-friendly interface for strategic decision-making.",
+      "image": "",
+      "icon": "store",
+      "technologies": ["Power BI", "Decision Support Systems", "Business Intelligence", "Data Analytics", "Dashboard"],
+      "results": "Retail decision support system, strategic business insights",
+      "category": "Visualization/Reporting"
+    },
+    {
+      "id": 24,
+      "title": "Traffic Accident Analysis in R",
+      "description": "R programming analysis of traffic accident dataset. Investigated causes, distributions, and relationships between various factors affecting accident severity.",
+      "image": "",
+      "icon": "car-crash",
+      "technologies": ["R Programming", "Statistical Analysis", "Data Science", "Visualization", "ggplot2"],
+      "results": "Traffic safety insights, accident causation analysis",
+      "category": "Data Science"
+    },
+    {
+      "id": 25,
+      "title": "ERP Data Analysis for Council Decision Making",
+      "description": "Comprehensive ERP data analysis project using CRISP-DM methodology. Developed visualization tools and management reports for organizational decision support.",
+      "image": "",
+      "icon": "database",
+      "technologies": ["ERP Analysis", "CRISP-DM", "Data Visualization", "Business Intelligence", "Analytics"],
+      "results": "Organizational decision support system, ERP insights",
+      "category": "Analytics"
+    },
+    {
+      "id": 26,
+      "title": "Power BI Sales Dashboard Suite",
+      "description": "Comprehensive Power BI dashboard with interactive visualizations for sales, profit, discount, and geographical analysis. Included drill-through capabilities and dynamic filtering.",
+      "image": "",
+      "icon": "chart-network",
+      "technologies": ["Power BI", "Interactive Dashboard", "Data Visualization", "Business Intelligence", "Analytics"],
+      "results": "Complete business analytics dashboard, multi-dimensional insights",
+      "category": "Visualization/Reporting"
+    },
+    {
+      "id": 27,
+      "title": "E-commerce Database Design",
+      "description": "Designed relational database for web-based retailer. Included order processing, inventory monitoring, customer management, and analytical capabilities.",
+      "image": "",
+      "icon": "database",
+      "technologies": ["Database Design", "SQL", "Relational Databases", "E-commerce", "System Architecture"],
+      "results": "Scalable e-commerce database, improved operational efficiency",
+      "category": "Data Engineering"
+    },
+    {
+      "id": 28,
+      "title": "Spatial Data Science Geostatistics",
+      "description": "Geostatistics analysis using ArcGIS Pro and R. Implemented spatial measures of central tendency and dispersion for point event analysis.",
+      "image": "",
+      "icon": "map-marker-alt",
+      "technologies": ["ArcGIS Pro", "R Programming", "Geostatistics", "Spatial Analysis", "Geographic Data"],
+      "results": "Spatial pattern analysis, geostatistical insights",
+      "category": "Data Science"
+    },
+    {
+      "id": 29,
+      "title": "Retail Sales Data Science Analysis",
+      "description": "Data science analysis for retail chain optimization. Applied statistical techniques including descriptive stats, correlation analysis, hypothesis testing, and time-series analysis.",
+      "image": "",
+      "icon": "shopping-bag",
+      "technologies": ["Data Science", "Statistical Analysis", "Python", "Time Series", "Business Analytics"],
+      "results": "Retail optimization strategies, data-driven decision insights",
+      "category": "Data Science"
+    },
+    {
+      "id": 30,
+      "title": "London Housing Data Analysis",
+      "description": "Python analysis of London housing data. Covered data manipulation, visualization with Seaborn/Matplotlib, and practical data analysis techniques.",
+      "image": "",
+      "icon": "home",
+      "technologies": ["Python", "Pandas", "Seaborn", "Matplotlib", "Data Analysis"],
+      "results": "Housing market insights, practical data analysis skills",
+      "category": "Data Science"
+    },
+    {
+      "id": 31,
+      "title": "India Census 2011 Data Analysis",
+      "description": "Analysis of India Census 2011 data using Python Pandas. Focused on demographic analysis, data manipulation techniques, and hands-on data exploration.",
+      "image": "",
+      "icon": "users",
+      "technologies": ["Python", "Pandas", "Data Analysis", "Demographic Analysis", "Census Data"],
+      "results": "Demographic insights, census data analysis framework",
+      "category": "Data Science"
+    },
+    {
+      "id": 32,
+      "title": "Police Dataset Analysis",
+      "description": "Python analysis of police traffic stop data. Included data cleaning, filtering, grouping, and statistical analysis of traffic stop patterns.",
+      "image": "",
+      "icon": "police-box",
+      "technologies": ["Python", "Data Cleaning", "Statistical Analysis", "Pandas", "Data Visualization"],
+      "results": "Traffic stop pattern insights, data analysis framework",
+      "category": "Data Science"
+    },
+    {
+      "id": 33,
+      "title": "Car Dataset Market Analysis",
+      "description": "Automotive market analysis using car dataset. Performed data cleaning, exploration of car makes, regional analysis, and outlier removal.",
+      "image": "",
+      "icon": "car",
+      "technologies": ["Python", "Pandas", "Data Cleaning", "Market Analysis", "Jupyter"],
+      "results": "Automotive market insights, data analysis techniques",
+      "category": "Data Science"
+    },
+    {
+      "id": 34,
+      "title": "Weather Data Analysis",
+      "description": "Practical data analysis project using weather dataset. Covered fundamental data analysis commands, descriptive statistics, and data filtering techniques.",
+      "image": "",
+      "icon": "cloud-sun",
+      "technologies": ["Python", "Data Analysis", "Descriptive Statistics", "Data Manipulation", "Jupyter"],
+      "results": "Weather pattern analysis, data analysis fundamentals",
+      "category": "Data Science"
+    },
+    {
+      "id": 35,
+      "title": "Netflix Dataset Analysis",
+      "description": "Comprehensive analysis of Netflix dataset. Included data cleaning, duplicate removal, null value handling, and answering various business questions.",
+      "image": "",
+      "icon": "film",
+      "technologies": ["Python", "Data Cleaning", "Data Analysis", "Pandas", "Visualization"],
+      "results": "Content analysis insights, data cleaning techniques",
+      "category": "Data Science"
+    },
+    {
+      "id": 36,
+      "title": "SARIMA Analysis Comparison",
+      "description": "Comparative analysis of SARIMA implementation in R and Python. Focused on time series forecasting results and methodological comparisons.",
+      "image": "",
+      "icon": "chart-line",
+      "technologies": ["R Programming", "Python", "SARIMA", "Time Series", "Forecasting"],
+      "results": "SARIMA implementation comparison, time series analysis insights",
+      "category": "Data Science"
+    },
+    {
+  "id": 37,
+  "title": "My Portfolio Website",
+  "description": "Developed a personal portfolio website to showcase data science projects. Built with vanilla JavaScript, features dynamic filtering, responsive design, and JSON-based content management.",
+  "image": "",
+  "icon": "globe",
+  "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+  "results": "Successfully created and deployed a professional portfolio that effectively showcases projects and skills to potential clients/employers.",
+  "category": "Web Development"
+}
+  ]
+}

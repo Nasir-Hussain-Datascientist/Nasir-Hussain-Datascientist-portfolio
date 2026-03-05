@@ -1,0 +1,204 @@
+{
+  "certifications": [
+    {
+      "id": 1,
+      "title": "ETL and Data Pipelines with Shell, Airflow and Kafka",
+      "issuer": "IBM",
+      "date": "OCT 2024",
+      "description": "Completed IBM’s ETL and Data Pipelines course, gaining experience in ETL/ELT design, automation with bash/Python, and scalable pipeline orchestration using Airflow and Kafka.",
+      "image": "data/images/ETL_and_Data_Pipelines_with_Shell__Airflow_and_Kafka_Badge20241009-7-jp73ob_page1.png",
+      "icon": "cloud",
+      "link": "https://www.coursera.org/account/accomplishments/verify/C6NIW3JV4SES"
+    },
+    {
+      "id": 2,
+      "title": "Machine Learning Implementation and Operations in AWS",
+      "issuer": "WHIZLABS",
+      "date": "November 2024",
+      "description": "Completed Whizlabs’ Machine Learning Implementation and Operations in AWS, gaining experience in designing scalable and resilient ML solutions, applying AWS ML services like SageMaker, and implementing secure, production-ready MLOps workflows.",
+      "image": "data/images/Machine Learning Implementation and Operations_page1.png",
+      "icon": "microsoft",
+      "link": "https://www.coursera.org/account/accomplishments/verify/049C77ROGS3A"
+    },
+    {
+      "id": 3,
+      "title": "Data Engineering in AWS",
+      "issuer": "WHIZLABS",
+      "date": "November 2024",
+      "description": "Completed data engineering projects in AWS, gaining hands-on experience with data ingestion, ETL, storage, and pipeline automation.",
+      "image": "data/images/Data Engineering in aws.PNG",
+      "icon": "microsoft",
+      "link": "https://www.coursera.org/account/accomplishments/verify/E1XQHK52KXZR"
+    },
+    {
+      "id": 4,
+      "title": "Exploratory Data Analysis in AWS",
+      "issuer": "WHIZLABS",
+      "date": "November 2024",
+      "description": "Completed Whizlabs’ EDA in AWS, gaining experience with data analysis for ML, real-time processing using Kinesis, and building ETL workflows with AWS Glue, S3, and Redshift.",
+      "image": "data/images/Exploratory data analysisCoursera 1KSU6QZNA9FT_page1.png",
+      "icon": "google",
+      "link": "https://www.coursera.org/account/accomplishments/verify/1KSU6QZNA9FT"
+    },
+    {
+      "id": 5,
+      "title": "Microsoft Azure Management Tools and Security Solutions",
+      "issuer": "Microsoft",
+      "date": "December 2024",
+      "description": "Completed Microsoft’s Azure Management Tools and Security Solutions course, gaining experience with Azure management services, AI and IoT solution selection, and core cloud security capabilities including firewalls, DDoS protection, and application security.",
+      "image": "/data/images/Microsoft Azure Management Tools.PNG",
+      "icon": "microsoft",
+      "link": "https://www.coursera.org/account/accomplishments/verify/98WJQS212TCU"
+    },
+    {
+      "id": 6,
+      "title": "Microsoft Azure Services and Lifecycles",
+      "issuer": "Microsoft",
+      "date": "December 2024",
+      "description": "Completed Microsoft’s Azure Services and Lifecycles course, gaining understanding of cloud governance, cost management, compliance standards, SLAs, and how these factors influence secure and well-designed Azure applications.",
+      "image": "data/images/Microsoft Azure Services and Lifecycles.PNG",
+      "icon": "microsoft",
+      "link": "https://www.coursera.org/account/accomplishments/verify/LTAHMI7ZXII0"
+    },
+    {
+      "id": 7,
+      "title": "Introduction to Microsoft Azure Cloud Services",
+      "issuer": "Microsoft",
+      "date": "December 2024",
+      "description": "Completed Microsoft’s Introduction to Azure Cloud Services, gaining foundational knowledge of cloud concepts, core Azure services, architecture components, virtualization, storage, networking, and cloud infrastructure fundamentals.",
+      "image": "data/images/Introduction to Microsoft Azure Cloud Services.PNG",
+      "icon": "microsoft",
+      "link": "https://www.coursera.org/account/accomplishments/verify/QIV324SQLFB8"
+    },
+    {
+      "id": 8,
+      "title": "Data Analysis with R Programming",
+      "issuer": "WHIZLABS",
+      "date": "November 2024",
+      "description": "Completed Google’s Data Analysis with R Programming course, gaining foundational skills in R, data manipulation with Tidyverse, visualization with ggplot2, and creating structured analytical reports using R Markdown.",
+      "image": "data/images/Data analysis with R prohgrammin coursera.PNG",
+      "icon": "microsoft",
+      "link": "https://www.coursera.org/account/accomplishments/verify/UXX1F6YQ1K3D"
+    },
+    {
+      "id": 9,
+      "title": "ML Algorithms",
+      "issuer": "WHIZLABS",
+      "date": "November 2024",
+      "description": "Completed Whizlabs’ ML Algorithms course, gaining practical understanding of regression, classification, forecasting, and reinforcement learning algorithms, along with hands-on exposure to core ML techniques and model design.",
+      "image": "data/images/ML Algorithms_page1.png",
+      "icon": "microsoft",
+      "link": "http://coursera.org/account/accomplishments/verify/K6VFQ55M4QKP"
+    },
+    {
+      "id": 10,
+      "title": "Data Science with R Programming",
+      "issuer": "Simplilearn|Skillup",
+      "date": "August 2023",
+      "description": "Completed a Data Science with R Programming course, developing skills in data cleaning, manipulation, visualization, and statistical analysis using R, along with hands-on practice applying data science workflows to real datasets.",
+      "image": "data/images/datascience with R programming_page1.png",
+      "icon": "microsoft",
+      "link": "https://simpli-web.app.link/e/sX2eJgwlPYb"
+    },
+    {
+      "id": 11,
+      "title": "Data Science with Python",
+      "issuer": "Simplilearn|Skillup",
+      "date": "September 2023",
+      "description": "Gained practical experience in Python data science, using key libraries to clean data, analyze patterns, and build basic machine-learning models.",
+      "image": "data/images/datascience with python_page1.png",
+      "icon": "microsoft",
+      "link": "https://simpli-web.app.link/e/jnNbKoEmPYb"
+    },
+    {
+      "id": 12,
+      "title": "Python Libraries for Data Science",
+      "issuer": "Simplilearn|Skillup",
+      "date": "September 2023",
+      "description": "Learned to work with essential Python libraries for data science, using tools like NumPy, Pandas, Matplotlib, and Scikit-learn to handle data, explore trends, and support analytical modeling.",
+      "image": "data/images/python libraries for datascience_page1.png",
+      "icon": "microsoft",
+      "link": "https://simpli-web.app.link/e/lO7oTnNmPYb"
+    },
+    {
+      "id": 13,
+      "title": "Power BI",
+      "issuer": "Simplilearn|Skillup",
+      "date": "September 2023",
+      "description": "Completed a Power BI for Beginners course, learning how to prepare data, build interactive dashboards, create DAX calculations, and develop clear visual reports for data-driven insights.",
+      "image": "data/images/power bi_page1.png",
+      "icon": "microsoft",
+      "link": "https://simpli-web.app.link/e/6kPnFQGlPYb"
+    },
+    {
+      "id": 14,
+      "title": "Tableau Training",
+      "issuer": "Simplilearn|Skillup",
+      "date": "October 2023",
+      "description": "Learned to create dashboards and visual stories in Tableau, turning raw data into clear, interactive visualizations.",
+      "image": "data/images/Tablaeu_page1.png",
+      "icon": "microsoft",
+      "link": "https://simpli-web.app.link/e/TjKsfK4mPYb"
+    },
+    {
+      "id": 15,
+      "title": "Data Analytics",
+      "issuer": "Simplilearn|Skillup",
+      "date": "September 2023",
+      "description": "Explored the essentials of data analytics, including how data is collected, processed, and interpreted to support insights.",
+      "image": "data/images/data analytics_page1.png",
+      "icon": "microsoft",
+      "link": "https://simpli-web.app.link/e/Md81Rz3mPYb"
+    },
+    {
+      "id": 16,
+      "title": "Data Science",
+      "issuer": "Simplilearn|Skillup",
+      "date": "September 2023",
+      "description": "Gained a beginner-friendly understanding of what data science is, how it works, and where it’s applied in real-world decision-making.",
+      "image": "data/images/what is datascience_page1.png",
+      "icon": "microsoft",
+      "link": "https://simpli-web.app.link/e/gYdmw3XmPYb"
+    },
+    {
+      "id": 17,
+      "title": "Programming Essentials in Python",
+      "issuer": "CISCO",
+      "date": "June 2024",
+      "description": "Completed the PCAP – Programming Essentials in Python course, gaining a solid foundation in Python programming, including variables, data structures, functions, control flow, and problem-solving for real-world applications.",
+      "image": "data/images/NasirHussain-Certified Associ-certificate_page1.png",
+      "icon": "microsoft",
+      "link": "https://www.netacad.com/certificates/?issuanceId=7124b27f-1163-4385-9c43-e5e1b59b2566"
+    },
+    {
+      "id": 18,
+      "title": "SQL and Relational Databases",
+      "issuer": "IBM",
+      "date": "July 2024",
+      "description": "Gained a solid introduction to SQL and relational databases, learning how to query, structure, and manage data using core SQL commands and relational design principles.",
+      "image": "data/images/IBM DB0101EN Certificate _ Cognitive Class SQL_page1.png",
+      "icon": "microsoft",
+      "link": "https://cognitiveclass.ai/certificate_thumbnails/course/6b8710dac7fc4a61b32bad686e086728"
+    },
+    {
+      "id": 19,
+      "title": "Business Intelligence using Excel",
+      "issuer": "Simplilearn|Skillup",
+      "date": "June 2024",
+      "description": "Built practical BI skills in Excel, using formulas, charts, and basic analysis tools to organize data and highlight key trends.",
+      "image": "data/images/Excell_page1.png",
+      "icon": "microsoft",
+      "link": "https://simpli-web.app.link/e/5R2BwpanPYb"
+    },
+    {
+      "id": 20,
+      "title": "Data Analysis with Python",
+      "issuer": "IBM",
+      "date": "June 2024",
+      "description": "Developed practical skills in analyzing data with Python, working with Pandas, NumPy, and visualization tools to explore datasets and extract meaningful insights.",
+      "image": "data/images/IBM DA0101EN Certificate _ Cognitive Class_page1.png",
+      "icon": "microsoft",
+      "link": "https://cognitiveclass.ai/certificate_thumbnails/course/d5bc20673ef54d9fa96b76ac66ccf4ca"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Exploratory Data Analysis (EDA)",
+      "description": "Uncover hidden patterns, anomalies, and relationships through statistical analysis and hypothesis testing, providing a foundational understanding of your data landscape.",
+      "icon": "search"
+    },
+    {
+      "id": 2,
+      "title": "Predictive Modeling & ML",
+      "description": "Design, train, and deploy production-ready machine learning models for classification, regression, forecasting, and recommendation systems tailored to your business objectives.",
+      "icon": "robot"
+    },
+    {
+      "id": 3,
+      "title": "Data Pipeline Engineering",
+      "description": "Architect and implement scalable ETL/ELT pipelines using tools like Airflow and Kafka to ensure efficient, reliable data flow from source to insight.",
+      "icon": "cogs"
+    },
+    {
+      "id": 4,
+      "title": "Interactive Dashboard Development",
+      "description": "Build dynamic, user-friendly dashboards in Tableau and Power BI that translate complex metrics into actionable intelligence for stakeholders at all levels.",
+      "icon": "chart-network"
+    },
+    {
+      "id": 5,
+      "title": "Cloud MLOps & Deployment",
+      "description": "Containerize and operationalize ML models on AWS, Azure, or GCP using Docker, Kubernetes, and MLflow for scalable, monitorable production systems.",
+      "icon": "cloud-upload-alt"
+    },
+    {
+      "id": 6,
+      "title": "Big Data Processing",
+      "description": "Process and analyze large-scale datasets using distributed computing frameworks like Apache Spark and Hadoop to handle volume, velocity, and variety.",
+      "icon": "server"
+    },
+    {
+      "id": 7,
+      "title": "Feature Engineering",
+      "description": "Transform raw data into powerful predictive features through domain-specific transformations, selection, and dimensionality reduction techniques.",
+      "icon": "sliders-h"
+    },
+    {
+      "id": 8,
+      "title": "Statistical Analysis & A/B Testing",
+      "description": "Apply rigorous statistical methods to validate hypotheses, measure experiment impact, and drive decisions with quantified confidence.",
+      "icon": "calculator"
+    },
+    {
+      "id": 9,
+      "title": "Database Design & Optimization",
+      "description": "Structure and optimize relational (SQL) and non-relational (NoSQL) databases for performance, integrity, and seamless integration with analytics workflows.",
+      "icon": "layer-group"
+    },
+    {
+      "id": 10,
+      "title": "Automated Reporting",
+      "description": "Develop automated reporting systems in Excel, Google Sheets, or Python to replace manual processes, ensuring timely and accurate delivery of key metrics.",
+      "icon": "file-export"
+    },
+    {
+      "id": 11,
+      "title": "Geospatial Data Analysis",
+      "description": "Analyze location-based data using GIS tools like ArcGIS to uncover spatial patterns, optimize logistics, and support location intelligence strategies.",
+      "icon": "globe"
+    },
+    {
+      "id": 12,
+      "title": "Data Governance & Compliance",
+      "description": "Implement frameworks and processes to ensure data quality, security, and adherence to regulations like GDPR, ISO27001, and PCI-DSS.",
+      "icon": "shield-alt"
+    },
+    {
+      "id": 13,
+      "title": "Time Series Forecasting",
+      "description": "Build models to predict future trends, demand, and behaviors using historical data, supporting strategic planning and inventory management.",
+      "icon": "chart-line"
+    },
+    {
+      "id": 14,
+      "title": "Customer Segmentation & CLV",
+      "description": "Identify distinct customer groups and calculate lifetime value to enable targeted marketing, personalized experiences, and retention strategies.",
+      "icon": "users"
+    },
+    {
+      "id": 15,
+      "title": "Anomaly & Fraud Detection",
+      "description": "Develop systems to automatically identify outliers, suspicious patterns, and fraudulent activities in transactional and operational data.",
+      "icon": "exclamation-triangle"
+    },
+    {
+      "id": 16,
+      "title": "Natural Language Processing (NLP)",
+      "description": "Extract insights from text data through sentiment analysis, topic modeling, and entity recognition to understand customer feedback and documents.",
+      "icon": "comments"
+    },
+    {
+      "id": 17,
+      "title": "Business Intelligence Strategy",
+      "description": "Align data initiatives with business goals by defining KPIs, designing measurement frameworks, and establishing data-driven decision cultures.",
+      "icon": "chess-board"
+    },
+    {
+      "id": 18,
+      "title": "Data Migration & Integration",
+      "description": "Seamlessly consolidate and migrate data from legacy systems, APIs, and disparate sources into unified, analysis-ready platforms.",
+      "icon": "exchange-alt"
+    },
+    {
+      "id": 19,
+      "title": "Performance Monitoring & Alerting",
+      "description": "Create systems to track model drift, data quality issues, and business metric deviations in real-time, with automated alerts for timely intervention.",
+      "icon": "bell"
+    },
+    {
+      "id": 20,
+      "title": "Technical Consultation & Training",
+      "description": "Provide expert guidance on data strategy, tool selection, and best practices, along with training to upskill teams in data literacy and technical capabilities.",
+      "icon": "chalkboard-teacher"
+    }
+  ]
+}

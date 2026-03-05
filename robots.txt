@@ -1,0 +1,5 @@
+# robots.txt for Nasir Hussain Portfolio
+User-agent: *
+Allow: /
+
+Sitemap: https://nasir-hussain-datascientist.github.io/sitemap.xml
